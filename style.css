@@ -1,0 +1,56 @@
+/** @format */
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+body {
+  font-family: sans-serif;
+}
+#container {
+  width: 100vw;
+  display: flex;
+}
+#section {
+  display: flex;
+
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  background-color: #fce5cd;
+  flex-grow: 1;
+  height: 100vh;
+}
+#sideNav {
+  width: 18vw;
+  min-height: 100vh;
+  background-color: #f7d7b5;
+}
+#title {
+  color: #351c75;
+  font-size: 6vw;
+  font-weight: 800;
+  letter-spacing: 0.1vw;
+}
+#disc {
+  color: #e69138;
+  font-size: 1.7vw;
+  font-weight: 800;
+}
+#sideNav h4 {
+  margin: 30px 20px;
+  font-size: 20px;
+}
+#sideNav button {
+  border: none;
+  background-color: transparent;
+  font-size: 18px;
+}
+#menu-box {
+  margin: 5px 20px;
+  display: flex;
+  flex-direction: column;
+  align-items: start;
+  gap: 12px;
+}
